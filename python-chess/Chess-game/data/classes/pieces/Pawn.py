@@ -2,6 +2,8 @@ import pygame
 
 from data.classes.Piece import Piece
 
+
+
 class Pawn(Piece):
 	def __init__(self, pos, color, board):
 		super().__init__(pos, color, board)
@@ -17,7 +19,6 @@ class Pawn(Piece):
 		output = []
 		moves = []
 
-		# move forward
 		if self.color == 'white':
 			moves.append((0, -1))
 			if not self.has_moved:
@@ -81,6 +82,5 @@ class Pawn(Piece):
 		return output
 
 	def attacking_squares(self, board):
-		moves = self.get_moves(board)
-		# return the diagonal moves 
+		moves = self.get_moves(board) 
 		return [i for i in moves if i.x != self.x]

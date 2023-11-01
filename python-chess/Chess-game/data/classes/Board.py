@@ -57,18 +57,15 @@ class Board:
 
 
 	def setup_board(self):
-		# iterating 2d list
 		for y, row in enumerate(self.config):
 			for x, piece in enumerate(row):
 				if piece != '':
 					square = self.get_square_from_pos((x, y))
 
-					# looking inside contents, what piece does it have
 					if piece[1] == 'R':
 						square.occupying_piece = Rook(
 							(x, y), 'white' if piece[0] == 'w' else 'black', self
 						)
-					# as you notice above, we put `self` as argument, or means our class Board
 
 					elif piece[1] == 'N':
 						square.occupying_piece = Knight(
@@ -114,7 +111,7 @@ class Board:
 				self.selected_piece = clicked_square.occupying_piece
 
 
-	def is_in_check(self, color, board_change=None): # board_change = [(x1, y1), (x2, y2)]
+	def is_in_check(self, color, board_change=None): 
 		output = False
 		king_pos = None
 

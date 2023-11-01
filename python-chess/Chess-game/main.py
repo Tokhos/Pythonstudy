@@ -20,18 +20,15 @@ if __name__ == '__main__':
 	while running:
 		mx, my = pygame.mouse.get_pos()
 		for event in pygame.event.get():
-			# Quit the game if the user presses the close button
 			if event.type == pygame.QUIT:
 				running = False
 			elif event.type == pygame.MOUSEBUTTONDOWN: 
-       			# If the mouse is clicked
 				if event.button == 1:
 					board.handle_click(mx, my)
-		if board.is_in_checkmate('black'): # If black is in checkmate
+		if board.is_in_checkmate('black'): 
 			print('White wins!')
 			running = False
-		elif board.is_in_checkmate('white'): # If white is in checkmate
+		elif board.is_in_checkmate('white'): 
 			print('Black wins!')
 			running = False
-		# Draw the board
 		draw(screen)    
