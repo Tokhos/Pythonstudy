@@ -1,0 +1,25 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.calendario.services.professional_service.models" />
+          <option value="src.calendario.services.appointment_service.models" />
+          <option value="src.calendario.services.interface.cancel_schelude_tk" />
+          <option value="src.calendario.services.interface.models" />
+          <option value="src.calendario.app.services" />
+          <option value="src.calendario.app.models" />
+          <option value="src.calendario.app.db" />
+          <option value="src.calendario.services.client_service.models" />
+          <option value="sqlite3.connect.commit" />
+          <option value="src.calendario.models.client.services" />
+          <option value="src.calendario.models.appointment.services" />
+          <option value="src.calendario.models.appointment.database" />
+          <option value="src.calendario.models.professional.services" />
+          <option value="src.calendario.models.professional.database" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

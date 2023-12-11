@@ -1,0 +1,1823 @@
+[
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "database.db",
+        "description": "database.db",
+        "isExtraImport": true,
+        "detail": "database.db",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "database.db",
+        "description": "database.db",
+        "isExtraImport": true,
+        "detail": "database.db",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "database.db",
+        "description": "database.db",
+        "isExtraImport": true,
+        "detail": "database.db",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Tk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Listbox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Scrollbar",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Entry",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Tk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Tk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Entry",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Listbox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Scrollbar",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Tk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Entry",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Listbox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Scrollbar",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Entry",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Tk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Listbox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Tk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Entry",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Listbox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Scrollbar",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "Data",
+        "importPath": "models.data",
+        "description": "models.data",
+        "isExtraImport": true,
+        "detail": "models.data",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modelos.data",
+        "description": "modelos.data",
+        "isExtraImport": true,
+        "detail": "modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "models.test",
+        "description": "models.test",
+        "isExtraImport": true,
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def add_user(name, phone, mail, adress):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date)\n        VALUES (?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date))\n    conn.commit()\n    update_combobox_users()\ndef register_user():\n    name = entry_name.get()",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def register_user():\n    name = entry_name.get()\n    phone = entry_phone.get()\n    mail = entry_mail.get()\n    adress = entry_adress.get()\n    add_user(name, phone, mail, adress)\n    messagebox.showinfo(\"cadastro\", \"Usuário cadastrado com sucesso!\")\ndef add_pro(name_pro, phone_pro):\n    cursor.execute('''\n        INSERT OR FAIL INTO professional (name_pro, phone_pro)",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "add_pro",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def add_pro(name_pro, phone_pro):\n    cursor.execute('''\n        INSERT OR FAIL INTO professional (name_pro, phone_pro)\n        VALUES (?, ?)\n    ''', (name_pro, phone_pro))\n    conn.commit()\n    update_combobox_pro()\ndef register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "register_pro",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()\n    add_pro(name_pro, phone_pro)\n    messagebox.showinfo(\"Cadastro\", \"Profissional cadastrado com sucesso!\")\ndef schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO schelude (id_user, id_pro, available_data)\n        VALUES (?, ?, ?)",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "schelude",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO schelude (id_user, id_pro, available_data)\n        VALUES (?, ?, ?)\n    ''', (id_user, id_pro, available_data))\n    conn.commit()\n    update_schelude_list()\ndef visualize_users():\n    cursor.execute('SELECT id, name FROM users')",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_users",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def visualize_users():\n    cursor.execute('SELECT id, name FROM users')\n    users = cursor.fetchall()\n    return users\ndef visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_pro",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_schelude",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))\n    schelude = cursor.fetchall()\n    return schelude\ndef schelude_time(id_schelude):\n    pass",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "schelude_time",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def schelude_time(id_schelude):\n    pass\ndef cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\ndef create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_schelude",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\ndef create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")\n        return",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "create_schelude",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")\n        return\n    schelude(id_user, id_pro)\n    messagebox.showinfo(\"Agendamento\", \"Agendamento criado com sucesso!\")\ndef cancel_schelude_tk():\n    selected_schelude = listbox_schelude.curselection()",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_schelude_tk",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def cancel_schelude_tk():\n    selected_schelude = listbox_schelude.curselection()\n    if not selected_schelude:\n        messagebox.showwarning(\"Aviso\", \"Selecione um agendamento antes de cancelar.\")\n        return\n    id_schelude = listbox_schelude.get(selected_schelude[0]).split()[0]\n    cancel_schelude(id_schelude)\n    messagebox.showinfo(\"Cancelamento\", \"Agendamento cancelado com sucesso!\")\ndef update_combobox_users():\n    combo_user['values'] = visualize_users()",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "update_combobox_users",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def update_combobox_users():\n    combo_user['values'] = visualize_users()\ndef update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  ",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "update_combobox_pro",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "update_schelude_list",
+        "kind": 2,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "def update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\n##############################################",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "conn = sqlite3.connect('usuarios.db')\ncursor = conn.cursor()\ndef add_user(name, phone, mail, adress):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date)\n        VALUES (?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date))\n    conn.commit()\n    update_combobox_users()",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "backup.modelos.data",
+        "description": "backup.modelos.data",
+        "peekOfCode": "cursor = conn.cursor()\ndef add_user(name, phone, mail, adress):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date)\n        VALUES (?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date))\n    conn.commit()\n    update_combobox_users()\ndef register_user():",
+        "detail": "backup.modelos.data",
+        "documentation": {}
+    },
+    {
+        "label": "Interface",
+        "kind": 6,
+        "importPath": "backup.services.interface",
+        "description": "backup.services.interface",
+        "peekOfCode": "class Interface:\n    def __init__(self):\n        root = Tk()\n        root.title(\"Sistema de Agendamento\")\n        root.mainloop()\n        label_name = Label(root, text=\"Nome:\")\n        label_phone = Label(root, text=\"Telefone:\")\n        label_mail = Label(root, text=\"E-mail:\")\n        label_adress = Label(root, text=\"Endereço:\")\n        entry_name = Entry(root)",
+        "detail": "backup.services.interface",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "root = Tk()\nroot.title(\"Sistema de Agendamento\")\nlabel_name = Label(root, text=\"Nome:\")\nlabel_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_name",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_name = Label(root, text=\"Nome:\")\nlabel_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_phone",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_mail",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_adress",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "entry_name",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "entry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "entry_phone",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "entry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "entry_mail",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "entry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "entry_adress",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "entry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "button_register_user",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "button_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_name_pro",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_phone_pro",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "entry_name_pro",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "entry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "entry_phone_pro",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "entry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "button_register_pro",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "button_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_users",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_professional",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "combo_user",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "combo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "combo_pro",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "combo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "button_create_schelude",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "button_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "label_schelude",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "label_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "listbox_schelude",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")\nentry_adress.grid(row=3, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "button_cancel_schelude",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")\nentry_adress.grid(row=3, column=1, padx=5, pady=5, sticky=\"w\")\nbutton_register_user.grid(row=4, column=0, columnspan=2, pady=10)",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "scrollbar_schelude",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "scrollbar_schelude = Scrollbar(root)\nscrollbar_schelude.grid(row=12, column=2, padx=5, pady=5, sticky=\"ns\")\nlistbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "listbox_schelude",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\nroot.mainloop()\nconn.close()",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "button_cancel_schelude",
+        "kind": 5,
+        "importPath": "backup.servico.interface",
+        "description": "backup.servico.interface",
+        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\nroot.mainloop()\nconn.close()",
+        "detail": "backup.servico.interface",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def add_user(name, phone, mail, adress):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date)\n        VALUES (?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date))\n    conn.commit()\n    update_combobox_users()\ndef add_pro(name_pro, phone_pro):\n    cursor.execute('''",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "add_pro",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def add_pro(name_pro, phone_pro):\n    cursor.execute('''\n        INSERT OR FAIL INTO professional (name_pro, phone_pro)\n        VALUES (?, ?)\n    ''', (name_pro, phone_pro))\n    conn.commit()\n    update_combobox_pro()\ndef schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "schelude",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO schelude (id_user, id_pro, available_data)\n        VALUES (?, ?, ?)\n    ''', (id_user, id_pro, available_data))\n    conn.commit()\n    update_schelude_list()\ndef visualize_users():\n    cursor.execute('SELECT id, name FROM users')",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_users",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def visualize_users():\n    cursor.execute('SELECT id, name FROM users')\n    users = cursor.fetchall()\n    return users\ndef visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_pro",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_schelude",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))\n    schelude = cursor.fetchall()\n    return schelude\ndef schelude_time(id_schelude):\n    pass",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "schelude_time",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def schelude_time(id_schelude):\n    pass\ndef cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\n# Funções Tkinter\ndef register_user():\n    name = entry_name.get()\n    phone = entry_phone.get()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_schelude",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\n# Funções Tkinter\ndef register_user():\n    name = entry_name.get()\n    phone = entry_phone.get()\n    mail = entry_mail.get()\n    adress = entry_adress.get()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def register_user():\n    name = entry_name.get()\n    phone = entry_phone.get()\n    mail = entry_mail.get()\n    adress = entry_adress.get()\n    add_user(name, phone, mail, adress)\n    messagebox.showinfo(\"Cadastro\", \"Usuário cadastrado com sucesso!\")\ndef register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "register_pro",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()\n    add_pro(name_pro, phone_pro)\n    messagebox.showinfo(\"Cadastro\", \"Profissional cadastrado com sucesso!\")\ndef create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "create_schelude",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")\n        return\n    schelude(id_user, id_pro)\n    messagebox.showinfo(\"Agendamento\", \"Agendamento criado com sucesso!\")\ndef cancel_schelude_tk():\n    selected_schelude = listbox_schelude.curselection()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_schelude_tk",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def cancel_schelude_tk():\n    selected_schelude = listbox_schelude.curselection()\n    if not selected_schelude:\n        messagebox.showwarning(\"Aviso\", \"Selecione um agendamento antes de cancelar.\")\n        return\n    id_schelude = listbox_schelude.get(selected_schelude[0]).split()[0]\n    cancel_schelude(id_schelude)\n    messagebox.showinfo(\"Cancelamento\", \"Agendamento cancelado com sucesso!\")\ndef update_combobox_users():\n    combo_user['values'] = visualize_users()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "update_combobox_users",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def update_combobox_users():\n    combo_user['values'] = visualize_users()\ndef update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "update_combobox_pro",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\nroot = Tk()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "update_schelude_list",
+        "kind": 2,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "def update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\nroot = Tk()\nroot.title(\"Sistema de Agendamento\")\nlabel_name = Label(root, text=\"Nome:\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "conn = sqlite3.connect('usuarios.db')\ncursor = conn.cursor()\ncursor.execute('''\n      CREATE TABLE IF NOT EXISTS user_base(\n         id_user INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL\n     )\n ''')\ncursor.execute('''\n      CREATE TABLE IF NOT EXISTS professional_id(\n         id_pro INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "cursor = conn.cursor()\ncursor.execute('''\n      CREATE TABLE IF NOT EXISTS user_base(\n         id_user INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL\n     )\n ''')\ncursor.execute('''\n      CREATE TABLE IF NOT EXISTS professional_id(\n         id_pro INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL\n     )",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "root = Tk()\nroot.title(\"Sistema de Agendamento\")\nlabel_name = Label(root, text=\"Nome:\")\nlabel_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_name",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_name = Label(root, text=\"Nome:\")\nlabel_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_phone",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_mail",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_adress",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_adress = Label(root, text=\"Endereço:\")\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "entry_name",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "entry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "entry_phone",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "entry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "entry_mail",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "entry_mail = Entry(root)\nentry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "entry_adress",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "entry_adress = Entry(root)\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "button_register_user",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "button_register_user = Button(root, text=\"Cadastrar Usuário\", command=register_user)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_name_pro",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_phone_pro",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_phone_pro = Label(root, text=\"Telefone Profissional:\")\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "entry_name_pro",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "entry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "entry_phone_pro",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "entry_phone_pro = Entry(root)\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "button_register_pro",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "button_register_pro = Button(root, text=\"Cadastrar Profissional\", command=register_pro)\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_users",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_professional",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_professional = Label(root, text=\"Profissionais:\")\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "combo_user",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "combo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "combo_pro",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "combo_pro = ttk.Combobox(root, state=\"readonly\")\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "button_create_schelude",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "button_create_schelude = Button(root, text=\"Criar Agendamento\", command=create_schelude)\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "label_schelude",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "label_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "listbox_schelude",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\")\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")\nentry_adress.grid(row=3, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "button_cancel_schelude",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")\nentry_adress.grid(row=3, column=1, padx=5, pady=5, sticky=\"w\")\nbutton_register_user.grid(row=4, column=0, columnspan=2, pady=10)",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "scrollbar_schelude",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "scrollbar_schelude = Scrollbar(root)\nscrollbar_schelude.grid(row=12, column=2, padx=5, pady=5, sticky=\"ns\")\nlistbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "listbox_schelude",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\nroot.mainloop()\nconn.close()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "button_cancel_schelude",
+        "kind": 5,
+        "importPath": "backup.base",
+        "description": "backup.base",
+        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\nroot.mainloop()\nconn.close()",
+        "detail": "backup.base",
+        "documentation": {}
+    },
+    {
+        "label": "Data",
+        "kind": 6,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "class Data:\n    def __init__(self):\n        self.data = []\ndef add_user(name, phone, mail, adress):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date)\n        VALUES (?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date))\n    conn.commit()",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def add_user(name, phone, mail, adress):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date)\n        VALUES (?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date))\n    conn.commit()\n    update_combobox_users()\ndef register_user():\n    name = entry_name.get()",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def register_user():\n    name = entry_name.get()\n    phone = entry_phone.get()\n    mail = entry_mail.get()\n    adress = entry_adress.get()\n    add_user(name, phone, mail, adress)\n    messagebox.showinfo(\"cadastro\", \"Usuário cadastrado com sucesso!\")\ndef add_pro(name_pro, phone_pro):\n    cursor.execute('''\n        INSERT OR FAIL INTO professional (name_pro, phone_pro)",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "add_pro",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def add_pro(name_pro, phone_pro):\n    cursor.execute('''\n        INSERT OR FAIL INTO professional (name_pro, phone_pro)\n        VALUES (?, ?)\n    ''', (name_pro, phone_pro))\n    conn.commit()\n    update_combobox_pro()\ndef register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "register_pro",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()\n    add_pro(name_pro, phone_pro)\n    messagebox.showinfo(\"Cadastro\", \"Profissional cadastrado com sucesso!\")\ndef schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO schelude (id_user, id_pro, available_data)\n        VALUES (?, ?, ?)",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "schelude",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO schelude (id_user, id_pro, available_data)\n        VALUES (?, ?, ?)\n    ''', (id_user, id_pro, available_data))\n    conn.commit()\n    update_schelude_list()\ndef visualize_users():\n    cursor.execute('SELECT id, name FROM users')",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_users",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def visualize_users():\n    cursor.execute('SELECT id, name FROM users')\n    users = cursor.fetchall()\n    return users\ndef visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_pro",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_schelude",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))\n    schelude = cursor.fetchall()\n    return schelude\nlistbox_schelude = Listbox(root, selectmode=\"single\")\ndef schelude_time(id_schelude):",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "schelude_time",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def schelude_time(id_schelude):\n    pass\ndef cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\ndef create_schelude():\n    id_user = combo_user.get()",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_schelude",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\ndef create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "create_schelude",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")\n        return\n    schelude(id_user, id_pro)\n    messagebox.showinfo(\"Agendamento\", \"Agendamento criado com sucesso!\")\ndef cancel_schelude_tk():\n    selected_schelude = listbox_schelude.curselection()",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_schelude_tk",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def cancel_schelude_tk():\n    selected_schelude = listbox_schelude.curselection()\n    if not selected_schelude:\n        messagebox.showwarning(\"Aviso\", \"Selecione um agendamento antes de cancelar.\")\n        return\n    id_schelude = listbox_schelude.get(selected_schelude[0]).split()[0]\n    cancel_schelude(id_schelude)\n    messagebox.showinfo(\"Cancelamento\", \"Agendamento cancelado com sucesso!\")\ndef update_combobox_users():\n    combo_user['values'] = visualize_users()",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "update_combobox_users",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def update_combobox_users():\n    combo_user['values'] = visualize_users()\ndef update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()\n    schelude_pro = visualize_schelude(id_pro)",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "update_combobox_pro",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()\n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "update_schelude_list",
+        "kind": 2,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "def update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()\n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "listbox_schelude",
+        "kind": 5,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\")\ndef schelude_time(id_schelude):\n    pass\ndef cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\ndef create_schelude():",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "combo_user",
+        "kind": 5,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "combo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\ndef create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")\n        return\n    schelude(id_user, id_pro)\n    messagebox.showinfo(\"Agendamento\", \"Agendamento criado com sucesso!\")",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "combo_pro",
+        "kind": 5,
+        "importPath": "backup.data",
+        "description": "backup.data",
+        "peekOfCode": "combo_pro = ttk.Combobox(root, state=\"readonly\")\ndef create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")\n        return\n    schelude(id_user, id_pro)\n    messagebox.showinfo(\"Agendamento\", \"Agendamento criado com sucesso!\")\ndef cancel_schelude_tk():",
+        "detail": "backup.data",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "database.db",
+        "description": "database.db",
+        "peekOfCode": "conn = sqlite3.connect('usuarios.db')\ncursor = conn.cursor()\ncursor.execute('''\n      CREATE TABLE IF NOT EXISTS user_base(\n         id_user INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL\n     )\n ''')\ncursor.execute('''\n      CREATE TABLE IF NOT EXISTS professional_id(\n         id_pro INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL",
+        "detail": "database.db",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "database.db",
+        "description": "database.db",
+        "peekOfCode": "cursor = conn.cursor()\ncursor.execute('''\n      CREATE TABLE IF NOT EXISTS user_base(\n         id_user INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL\n     )\n ''')\ncursor.execute('''\n      CREATE TABLE IF NOT EXISTS professional_id(\n         id_pro INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL\n     )",
+        "detail": "database.db",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def add_user(name, phone, mail, adress, status):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date, status)\n        VALUES (?, ?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date, status))\n    conn.commit()\n    update_combobox_users()\ndef register_user():\n    name = entry_name.get()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def register_user():\n    name = entry_name.get()\n    phone = entry_phone.get()\n    mail = entry_mail.get()\n    adress = entry_adress.get()\n    status = 1\n    add_user(name, phone, mail, adress, status)\n    messagebox.showinfo(\"Cadastro\", \"Usuário cadastrado com sucesso!\")\ndef add_pro(name_pro, phone_pro):\n    cursor.execute('''",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "add_pro",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def add_pro(name_pro, phone_pro):\n    cursor.execute('''\n        INSERT OR FAIL INTO professional (name_pro, phone_pro)\n        VALUES (?, ?)\n    ''', (name_pro, phone_pro))\n    conn.commit()\n    update_combobox_pro()\ndef register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "register_pro",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()\n    add_pro(name_pro, phone_pro)\n    messagebox.showinfo(\"Cadastro\", \"Profissional cadastrado com sucesso!\")\n##### \ndef update_user_status():\n    selected_user = combo_user.get()\n    new_status = combo_status.get()\n    if not selected_user:",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_status",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def update_user_status():\n    selected_user = combo_user.get()\n    new_status = combo_status.get()\n    if not selected_user:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário antes de atualizar o status.\")\n        return\n    try:\n        if new_status == \"Inativo\":\n            cursor.execute('UPDATE users SET status = \"2\" WHERE id = ?', (selected_user,))\n            conn.commit()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "schelude",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO schelude (id_user, id_pro, available_data)\n        VALUES (?, ?, ?)\n    ''', (id_user, id_pro, available_data))\n    conn.commit()\n    update_schelude_list()\ndef visualize_users():\n    cursor.execute('SELECT id, name, status FROM users')",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_users",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def visualize_users():\n    cursor.execute('SELECT id, name, status FROM users')\n    users = cursor.fetchall()\n    return users\ndef visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_pro",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_schelude",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))\n    schelude = cursor.fetchall()\n    return schelude\ndef schelude_time(id_schelude):\n    pass",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "schelude_time",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def schelude_time(id_schelude):\n    pass\ndef cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\ndef create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_schelude",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def cancel_schelude(id_schelude):\n    cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))\n    conn.commit()\n    update_schelude_list()\ndef create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")\n        return",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "create_schelude",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def create_schelude():\n    id_user = combo_user.get()\n    id_pro = combo_pro.get()\n    if not id_user or not id_pro:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário e um profissional antes de criar um agendamento.\")\n        return\n    schelude(id_user, id_pro)\n    messagebox.showinfo(\"Agendamento\", \"Agendamento criado com sucesso!\")\ndef cancel_schelude_tk():\n    selected_schelude = listbox_schelude.curselection()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_schelude_tk",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def cancel_schelude_tk():\n    selected_schelude = listbox_schelude.curselection()\n    if not selected_schelude:\n        messagebox.showwarning(\"Aviso\", \"Selecione um agendamento antes de cancelar.\")\n        return\n    id_schelude = listbox_schelude.get(selected_schelude[0]).split()[0]\n    cancel_schelude(id_schelude)\n    messagebox.showinfo(\"Cancelamento\", \"Agendamento cancelado com sucesso!\")\ndef update_combobox_users():\n    combo_user['values'] = visualize_users()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "update_combobox_users",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def update_combobox_users():\n    combo_user['values'] = visualize_users()\ndef update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "update_combobox_pro",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\n##############################################",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "update_schelude_list",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\n##############################################\n#base tkinter\nroot = Tk()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "conn = sqlite3.connect('usuarios.db')\ncursor = conn.cursor()\ndef add_user(name, phone, mail, adress, status):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date, status)\n        VALUES (?, ?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date, status))\n    conn.commit()\n    update_combobox_users()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "cursor = conn.cursor()\ndef add_user(name, phone, mail, adress, status):\n    register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO users (name, phone, mail, adress, register_date, status)\n        VALUES (?, ?, ?, ?, ?, ?)\n    ''', (name, phone, mail, adress, register_date, status))\n    conn.commit()\n    update_combobox_users()\ndef register_user():",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "root = Tk()\nroot.title(\"Sistema de Agendamento\")\n#label superior\nlabel_name = Label(root, text=\"Nome:\")\nlabel_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\n#campo de registro\nentry_name = Entry(root)\nentry_phone = Entry(root)",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_name",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_name = Label(root, text=\"Nome:\")\nlabel_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\n#campo de registro\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\n#confirmação de registro",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_phone",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_phone = Label(root, text=\"Telefone:\")\nlabel_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\n#campo de registro\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\n#confirmação de registro\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command= register_user)",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_mail",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_mail = Label(root, text=\"E-mail:\")\nlabel_adress = Label(root, text=\"Endereço:\")\n#campo de registro\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\n#confirmação de registro\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command= register_user)\n#label inferior(profissional)",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_adress",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_adress = Label(root, text=\"Endereço:\")\n#campo de registro\nentry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\n#confirmação de registro\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command= register_user)\n#label inferior(profissional)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "entry_name",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "entry_name = Entry(root)\nentry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\n#confirmação de registro\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command= register_user)\n#label inferior(profissional)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\n#campo de cadastro de profissional",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "entry_phone",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "entry_phone = Entry(root)\nentry_mail = Entry(root)\nentry_adress = Entry(root)\n#confirmação de registro\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command= register_user)\n#label inferior(profissional)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\n#campo de cadastro de profissional\nentry_name_pro = Entry(root)",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "entry_mail",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "entry_mail = Entry(root)\nentry_adress = Entry(root)\n#confirmação de registro\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command= register_user)\n#label inferior(profissional)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\n#campo de cadastro de profissional\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "entry_adress",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "entry_adress = Entry(root)\n#confirmação de registro\nbutton_register_user = Button(root, text=\"Cadastrar Usuário\", command= register_user)\n#label inferior(profissional)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\n#campo de cadastro de profissional\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\n#confirmação de registro profissional",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "button_register_user",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "button_register_user = Button(root, text=\"Cadastrar Usuário\", command= register_user)\n#label inferior(profissional)\nlabel_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\n#campo de cadastro de profissional\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_name_pro",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_name_pro = Label(root, text=\"Nome Profissional:\")\nlabel_phone_pro = Label(root, text=\"Telefone Profissional:\")\n#campo de cadastro de profissional\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_phone_pro",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_phone_pro = Label(root, text=\"Telefone Profissional:\")\n#campo de cadastro de profissional\nentry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "entry_name_pro",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "entry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "entry_phone_pro",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "entry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "button_register_pro",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "button_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "button_create_schelude",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "button_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_schelude",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "listbox_schelude",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "button_cancel_schelude",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_users",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")\ncombo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_professional",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")\ncombo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "combo_user",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "combo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")\ncombo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)\nbutton_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\n#####",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "combo_pro",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "combo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")\ncombo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)\nbutton_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "combo_status",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "combo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)\nbutton_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "button_update_status",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "button_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "scrollbar_schelude",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "scrollbar_schelude = Scrollbar(root)\nscrollbar_schelude.grid(row=12, column=2, padx=5, pady=5, sticky=\"ns\")\nlistbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "listbox_schelude",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\n#1\nroot.mainloop()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "button_cancel_schelude",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\n#1\nroot.mainloop()\nconn.close()",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    if __name__ == '__main__':\n        main()",
+        "detail": "main",
+        "documentation": {}
+    }
+]
