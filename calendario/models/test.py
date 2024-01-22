@@ -25,9 +25,8 @@ def add_user(name, phone, mail, adress, status):
         INSERT OR FAIL INTO users (name, phone, mail, adress, register_date, status)
         VALUES (?, ?, ?, ?, ?, ?)
     ''', (name, phone, mail, adress, register_date, status))
-    cursor.execute('''
-        INSERT INTO user_base (id_user) VALUES (1), (2), (3), (4), (5);
-    ''')
+
+    
     conn.commit()
     update_combobox_users()
 
@@ -40,7 +39,7 @@ def register_user():
     status = 1
     
     if not name or not mail or not adress or not phone:
-        messagebox.showerror("Erro", "Preencha todos os campos obrigatórios.")
+        messagebox.showerror("Erro", "Para ter uma experiência completa, precisamos que você informe todos os dados do formulário.")
     
     else:
         add_user(name, phone, mail, adress, status)
@@ -53,9 +52,6 @@ def add_pro(name_pro, phone_pro):
         INSERT OR FAIL INTO professional (name_pro, phone_pro)
         VALUES (?, ?)
     ''', (name_pro, phone_pro))
-    cursor.execute('''
-                   INSERT OR FAIL INTO professional_id (id_pro) VALUES (1), (2), (3), (4), (5)
-                   ''')
     conn.commit()
     update_combobox_pro()
 
@@ -67,7 +63,7 @@ def register_pro():
     phone_pro = entry_phone_pro.get()
     
     if not name_pro or not phone_pro:
-        messagebox.showerror("Erro", "Preencha todos os campos obrigatórios.")
+        messagebox.showerror("Erro", "Para ter uma experiência completa, precisamos que você informe todos os dados do formulário.")
     
     else:
         add_pro(name_pro, phone_pro)
@@ -79,7 +75,7 @@ def update_user_status():
     new_status = combo_status.get()
 
     if not selected_user:
-        messagebox.showwarning("Aviso", "Selecione um usuário antes de atualizar o status.")
+        messagebox.showwarning("Aviso", "Selecione um id de usuário antes de atualizar o status.")
         return
 
     try:
@@ -90,10 +86,11 @@ def update_user_status():
             if cursor.rowcount > 0:
                 print("Update successful")
             else:
+                print('UPDATE users SET status = 2 WHERE id = ?', (selected_user,))
                 print("No rows were updated. The specified id may not exist.")
     
         elif new_status == "Ativo":
-            cursor.execute('UPDATE users SET status = "1" WHERE id = ?', (selected_user,))
+            cursor.execute('UPDATE users SET status = "1" WHERE id = ?', (selected_user))
             conn.commit()
             messagebox.showinfo("Atualização de Status", "Status do usuário atualizado para Ativo.")
         else:
@@ -104,7 +101,7 @@ def update_user_status():
     update_combobox_users()
     
     update_schelude_list()
-#
+
 
 def schelude(id_user, id_pro, days_foward=3):
     available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')
@@ -116,14 +113,14 @@ def schelude(id_user, id_pro, days_foward=3):
     update_schelude_list()
 
 def visualize_users():
-    cursor.execute('SELECT id, name, status FROM users')
+    cursor.execute('SELECT id FROM users')
     users = cursor.fetchall()
     return users
 
 def visualize_pro():
     cursor.execute('SELECT id_pro, name_pro FROM professional')
     profissionais = cursor.fetchall()
-    return profissionais
+    return profissionais    
 
 def visualize_schelude(id_pro):
     cursor.execute('''
@@ -155,7 +152,8 @@ def create_schelude():
 
     schelude(id_user, id_pro)
     messagebox.showinfo("Agendamento", "Agendamento criado com sucesso!")
-
+    
+    
 def cancel_schelude_tk():
     selected_schelude = listbox_schelude.curselection()
 
@@ -183,8 +181,8 @@ def update_schelude_list():
     for schelude in schelude_pro:
         date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')
         listbox_schelude.insert('end', f"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}")
-
-##############################################
+   
+    
 
 #base tkinter
 
@@ -228,12 +226,15 @@ button_create_schelude = Button(root, text="Criar Agendamento", command= create_
 label_schelude = Label(root, text="Agendamentos:")
 listbox_schelude = Listbox(root, selectmode="single")
 
+label_username = Label(root, text="Usuários:")
+listbox_username= Listbox(root, selectmode="single")
+
 #cancelamento de agendamento
 button_cancel_schelude = Button(root, text="Cancelar Agendamento", command= cancel_schelude_tk)
 
 
 #visualização de usuarios e profissionais
-label_users = Label(root, text="Usuários:")
+label_users = Label(root, text="ID do Usuário:")
 label_professional = Label(root, text="Profissionais:")
 label_status= Label(root, text="Status")
 
@@ -242,6 +243,30 @@ combo_user = ttk.Combobox(root, state="readonly")
 combo_pro = ttk.Combobox(root, state="readonly")
 
 
+#exibir lista de usuários
+def userexib():
+    cursor.execute(f"SELECT id, name FROM users")
+    users = cursor.fetchall()
+
+    tree = ttk.Treeview(root)
+    tree["columns"] = tuple(range(len(users[0])))
+    tree.heading('#1', text=f"id")
+    tree.heading('#2', text=f"name")
+    
+    for line in users:
+        tree.insert("", "end", values=line)
+
+    scrollbar_tree = ttk.Scrollbar(root, orient="vertical", command=tree.yview)
+    tree.grid(row=12, column=2, sticky="s")
+    scrollbar_tree.grid(row=12, column=3, sticky="s")
+
+    for i in range(len(users[0])):
+        tree.column(i, stretch=False)
+        tree.column(i, minwidth=30)
+    
+    tree.bind("<Configure>", lambda e: tree.item(tree.focus(), tags=("ttk",)))
+
+    
 
 
 #posicionamentos
@@ -253,6 +278,9 @@ combo_status.grid(row=9, column=2, padx=5, pady=5)
 
 button_update_status = Button(root, text="Atualizar Status", command=update_user_status)
 button_update_status.grid(row=10, column=2, pady=10)
+
+button_update_username = Button(root, text="Exibir Usuários", command= userexib)
+button_update_username.grid (row=12, column=3, pady=10)
 
 #####
 label_name.grid(row=0, column=0, padx=5, pady=5, sticky="e")
@@ -290,7 +318,8 @@ button_cancel_schelude.grid(row=13, column=0, pady=5)
 
 
 scrollbar_schelude = Scrollbar(root)
-scrollbar_schelude.grid(row=12, column=2, padx=5, pady=5, sticky="ns")
+scrollbar_schelude.grid(row=11, column=1, padx=5, pady=5, sticky="ns")
+
 
 listbox_schelude = Listbox(root, selectmode="single", yscrollcommand=scrollbar_schelude.set)
 listbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)
@@ -305,7 +334,8 @@ update_combobox_users()
 update_combobox_pro()
 update_schelude_list()
 
-#1
+
+
 root.mainloop()
 
 

@@ -33,7 +33,7 @@ cursor.execute('''
         mail TEXT NOT NULL UNIQUE,
         adress TEXT NOT NULL,
         register_date TEXT NOT NULL,
-        status TEXT NOT NULL,
+        status NUMBER NOT NULL,
         FOREIGN KEY (id) REFERENCES user_base (id_user)
                
     )

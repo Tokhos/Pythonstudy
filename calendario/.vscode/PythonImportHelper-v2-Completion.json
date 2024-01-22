@@ -1411,7 +1411,7 @@
         "kind": 2,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "def register_user():\n    name = entry_name.get()\n    phone = entry_phone.get()\n    mail = entry_mail.get()\n    adress = entry_adress.get()\n    status = 1\n    add_user(name, phone, mail, adress, status)\n    messagebox.showinfo(\"Cadastro\", \"Usuário cadastrado com sucesso!\")\ndef add_pro(name_pro, phone_pro):\n    cursor.execute('''",
+        "peekOfCode": "def register_user():\n    name = entry_name.get()\n    phone = entry_phone.get()\n    mail = entry_mail.get()\n    adress = entry_adress.get()\n    status = 1\n    if not name or not mail or not adress or not phone:\n        messagebox.showerror(\"Erro\", \"Para ter uma experiência completa, precisamos que você informe todos os dados do formulário.\")\n    else:\n        add_user(name, phone, mail, adress, status)",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1429,7 +1429,7 @@
         "kind": 2,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "def register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()\n    add_pro(name_pro, phone_pro)\n    messagebox.showinfo(\"Cadastro\", \"Profissional cadastrado com sucesso!\")\n##### \ndef update_user_status():\n    selected_user = combo_user.get()\n    new_status = combo_status.get()\n    if not selected_user:",
+        "peekOfCode": "def register_pro():\n    name_pro = entry_name_pro.get()\n    phone_pro = entry_phone_pro.get()\n    if not name_pro or not phone_pro:\n        messagebox.showerror(\"Erro\", \"Para ter uma experiência completa, precisamos que você informe todos os dados do formulário.\")\n    else:\n        add_pro(name_pro, phone_pro)\n        messagebox.showinfo(\"Cadastro\", \"Profissional cadastrado com sucesso!\")\n#\ndef update_user_status():",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1438,7 +1438,7 @@
         "kind": 2,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "def update_user_status():\n    selected_user = combo_user.get()\n    new_status = combo_status.get()\n    if not selected_user:\n        messagebox.showwarning(\"Aviso\", \"Selecione um usuário antes de atualizar o status.\")\n        return\n    try:\n        if new_status == \"Inativo\":\n            cursor.execute('UPDATE users SET status = \"2\" WHERE id = ?', (selected_user,))\n            conn.commit()",
+        "peekOfCode": "def update_user_status():\n    selected_user = combo_user.get()\n    new_status = combo_status.get()\n    if not selected_user:\n        messagebox.showwarning(\"Aviso\", \"Selecione um id de usuário antes de atualizar o status.\")\n        return\n    try:\n        if new_status == \"Inativo\":\n            cursor.execute('UPDATE users SET status = \"2\" WHERE id = ?', (selected_user,))\n            conn.commit()",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1447,7 +1447,7 @@
         "kind": 2,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "def schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO schelude (id_user, id_pro, available_data)\n        VALUES (?, ?, ?)\n    ''', (id_user, id_pro, available_data))\n    conn.commit()\n    update_schelude_list()\ndef visualize_users():\n    cursor.execute('SELECT id, name, status FROM users')",
+        "peekOfCode": "def schelude(id_user, id_pro, days_foward=3):\n    available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')\n    cursor.execute('''\n        INSERT OR FAIL INTO schelude (id_user, id_pro, available_data)\n        VALUES (?, ?, ?)\n    ''', (id_user, id_pro, available_data))\n    conn.commit()\n    update_schelude_list()\ndef visualize_users():\n    cursor.execute('SELECT id FROM users')",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1456,7 +1456,7 @@
         "kind": 2,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "def visualize_users():\n    cursor.execute('SELECT id, name, status FROM users')\n    users = cursor.fetchall()\n    return users\ndef visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''",
+        "peekOfCode": "def visualize_users():\n    cursor.execute('SELECT id FROM users')\n    users = cursor.fetchall()\n    return users\ndef visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais    \ndef visualize_schelude(id_pro):\n    cursor.execute('''",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1465,7 +1465,7 @@
         "kind": 2,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "def visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais\ndef visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))",
+        "peekOfCode": "def visualize_pro():\n    cursor.execute('SELECT id_pro, name_pro FROM professional')\n    profissionais = cursor.fetchall()\n    return profissionais    \ndef visualize_schelude(id_pro):\n    cursor.execute('''\n        SELECT id_schelude, id_user, available_data\n        FROM schelude\n        WHERE id_pro = ?\n    ''', (id_pro,))",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1528,7 +1528,7 @@
         "kind": 2,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "def update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\n##############################################",
+        "peekOfCode": "def update_combobox_pro():\n    combo_pro['values'] = visualize_pro()\ndef update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\n#base tkinter",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1537,7 +1537,16 @@
         "kind": 2,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "def update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\n##############################################\n#base tkinter\nroot = Tk()",
+        "peekOfCode": "def update_schelude_list():\n    listbox_schelude.delete(0, 'end')\n    id_pro = combo_pro.get()  \n    schelude_pro = visualize_schelude(id_pro)\n    for schelude in schelude_pro:\n        date_defined = datetime.strptime(schelude[2], '%Y-%m-%d %H:%M:%S').strftime('%d/%m/%Y %H:%M:%S')\n        listbox_schelude.insert('end', f\"{schelude[0]} - Usuário: {schelude[1]}, Data: {date_defined}\")\n#base tkinter\nroot = Tk()\nroot.title(\"Sistema de Agendamento\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "userexib",
+        "kind": 2,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "def userexib():\n    cursor.execute(f\"SELECT id, name FROM users\")\n    users = cursor.fetchall()\n    tree = ttk.Treeview(root)\n    tree[\"columns\"] = tuple(range(len(users[0])))\n    tree.heading('#1', text=f\"id\")\n    tree.heading('#2', text=f\"name\")\n    for line in users:\n        tree.insert(\"\", \"end\", values=line)\n    scrollbar_tree = ttk.Scrollbar(root, orient=\"vertical\", command=tree.yview)",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1672,7 +1681,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "entry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento",
+        "peekOfCode": "entry_name_pro = Entry(root)\nentry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nlabel_username = Label(root, text=\"Usuários:\")",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1681,7 +1690,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "entry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)",
+        "peekOfCode": "entry_phone_pro = Entry(root)\n#confirmação de registro profissional\nbutton_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nlabel_username = Label(root, text=\"Usuários:\")\nlistbox_username= Listbox(root, selectmode=\"single\")",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1690,7 +1699,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "button_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")",
+        "peekOfCode": "button_register_pro = Button(root, text=\"Cadastrar Profissional\", command= register_pro)\n#botão de confirmação de agendamento\nbutton_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nlabel_username = Label(root, text=\"Usuários:\")\nlistbox_username= Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1699,7 +1708,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "button_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")",
+        "peekOfCode": "button_create_schelude = Button(root, text=\"Criar Agendamento\", command= create_schelude)\n#visualização de lista de agendamentos\nlabel_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nlabel_username = Label(root, text=\"Usuários:\")\nlistbox_username= Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"ID do Usuário:\")",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1708,7 +1717,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "label_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")",
+        "peekOfCode": "label_schelude = Label(root, text=\"Agendamentos:\")\nlistbox_schelude = Listbox(root, selectmode=\"single\")\nlabel_username = Label(root, text=\"Usuários:\")\nlistbox_username= Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"ID do Usuário:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"Status\")",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1717,7 +1726,16 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\")\nlabel_username = Label(root, text=\"Usuários:\")\nlistbox_username= Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"ID do Usuário:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"Status\")\n#combinação de usuarios e profissionais",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "label_username",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "label_username = Label(root, text=\"Usuários:\")\nlistbox_username= Listbox(root, selectmode=\"single\")\n#cancelamento de agendamento\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"ID do Usuário:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"Status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1726,7 +1744,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")",
+        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command= cancel_schelude_tk)\n#visualização de usuarios e profissionais\nlabel_users = Label(root, text=\"ID do Usuário:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"Status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#exibir lista de usuários\ndef userexib():",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1735,7 +1753,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "label_users = Label(root, text=\"Usuários:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")\ncombo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")",
+        "peekOfCode": "label_users = Label(root, text=\"ID do Usuário:\")\nlabel_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"Status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#exibir lista de usuários\ndef userexib():\n    cursor.execute(f\"SELECT id, name FROM users\")\n    users = cursor.fetchall()",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1744,7 +1762,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "label_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")\ncombo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)",
+        "peekOfCode": "label_professional = Label(root, text=\"Profissionais:\")\nlabel_status= Label(root, text=\"Status\")\n#combinação de usuarios e profissionais\ncombo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#exibir lista de usuários\ndef userexib():\n    cursor.execute(f\"SELECT id, name FROM users\")\n    users = cursor.fetchall()\n    tree = ttk.Treeview(root)",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1753,7 +1771,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "combo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")\ncombo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)\nbutton_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\n#####",
+        "peekOfCode": "combo_user = ttk.Combobox(root, state=\"readonly\")\ncombo_pro = ttk.Combobox(root, state=\"readonly\")\n#exibir lista de usuários\ndef userexib():\n    cursor.execute(f\"SELECT id, name FROM users\")\n    users = cursor.fetchall()\n    tree = ttk.Treeview(root)\n    tree[\"columns\"] = tuple(range(len(users[0])))\n    tree.heading('#1', text=f\"id\")\n    tree.heading('#2', text=f\"name\")",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1762,7 +1780,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "combo_pro = ttk.Combobox(root, state=\"readonly\")\n#posicionamentos\nlabel_status.grid(row=8, column=2, padx=5, pady=5, sticky=\"w\")\ncombo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)\nbutton_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")",
+        "peekOfCode": "combo_pro = ttk.Combobox(root, state=\"readonly\")\n#exibir lista de usuários\ndef userexib():\n    cursor.execute(f\"SELECT id, name FROM users\")\n    users = cursor.fetchall()\n    tree = ttk.Treeview(root)\n    tree[\"columns\"] = tuple(range(len(users[0])))\n    tree.heading('#1', text=f\"id\")\n    tree.heading('#2', text=f\"name\")\n    for line in users:",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1771,7 +1789,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "combo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)\nbutton_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")",
+        "peekOfCode": "combo_status = ttk.Combobox(root, values=[\"Ativo\", \"Inativo\"], state=\"readonly\")\ncombo_status.set(\"Ativo\")\ncombo_status.grid(row=9, column=2, padx=5, pady=5)\nbutton_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\nbutton_update_username = Button(root, text=\"Exibir Usuários\", command= userexib)\nbutton_update_username.grid (row=12, column=3, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1780,7 +1798,16 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "button_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")",
+        "peekOfCode": "button_update_status = Button(root, text=\"Atualizar Status\", command=update_user_status)\nbutton_update_status.grid(row=10, column=2, pady=10)\nbutton_update_username = Button(root, text=\"Exibir Usuários\", command= userexib)\nbutton_update_username.grid (row=12, column=3, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")",
+        "detail": "models.test",
+        "documentation": {}
+    },
+    {
+        "label": "button_update_username",
+        "kind": 5,
+        "importPath": "models.test",
+        "description": "models.test",
+        "peekOfCode": "button_update_username = Button(root, text=\"Exibir Usuários\", command= userexib)\nbutton_update_username.grid (row=12, column=3, pady=10)\n#####\nlabel_name.grid(row=0, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_phone.grid(row=1, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_mail.grid(row=2, column=0, padx=5, pady=5, sticky=\"e\")\nlabel_adress.grid(row=3, column=0, padx=5, pady=5, sticky=\"e\")\nentry_name.grid(row=0, column=1, padx=5, pady=5, sticky=\"w\")\nentry_phone.grid(row=1, column=1, padx=5, pady=5, sticky=\"w\")\nentry_mail.grid(row=2, column=1, padx=5, pady=5, sticky=\"w\")",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1789,7 +1816,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "scrollbar_schelude = Scrollbar(root)\nscrollbar_schelude.grid(row=12, column=2, padx=5, pady=5, sticky=\"ns\")\nlistbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()",
+        "peekOfCode": "scrollbar_schelude = Scrollbar(root)\nscrollbar_schelude.grid(row=11, column=1, padx=5, pady=5, sticky=\"ns\")\nlistbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1798,7 +1825,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\n#1\nroot.mainloop()",
+        "peekOfCode": "listbox_schelude = Listbox(root, selectmode=\"single\", yscrollcommand=scrollbar_schelude.set)\nlistbox_schelude.grid(row=12, column=0, columnspan=2, padx=5, pady=5)\nscrollbar_schelude.config(command=listbox_schelude.yview)\nbutton_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\nroot.mainloop()\nconn.close()",
         "detail": "models.test",
         "documentation": {}
     },
@@ -1807,7 +1834,7 @@
         "kind": 5,
         "importPath": "models.test",
         "description": "models.test",
-        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\n#1\nroot.mainloop()\nconn.close()",
+        "peekOfCode": "button_cancel_schelude = Button(root, text=\"Cancelar Agendamento\", command=cancel_schelude_tk)\nbutton_cancel_schelude.grid(row=13, column=0, pady=5)\nupdate_combobox_users()\nupdate_combobox_pro()\nupdate_schelude_list()\nroot.mainloop()\nconn.close()",
         "detail": "models.test",
         "documentation": {}
     },
