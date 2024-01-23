@@ -26,14 +26,22 @@ class MyApp:
 
         self.schelude_datetime_picker = ttk.Entry(self.schelude_frame)
         
-        self.schelude_treeview = ttk.Treeview(self.schelude_frame, columns=('User', 'Professional', 'Available Date'), show='headings')
+        self.schelude_treeview = ttk.Treeview(self.schelude_frame, columns=('User', 'Professional', 'Available Date', 'Status'), show='headings')
         self.schelude_treeview.heading('User', text='User')
         self.schelude_treeview.heading('Professional', text='Professional')
         self.schelude_treeview.heading('Available Date', text='Available Date')
-        self.schelude_treeview.pack(pady=10)
+        self.schelude_treeview.heading('Status', text='Status')
+        self.schelude_treeview.pack(pady=10, fill='both', expand=True)
+        
+        treeview_scroll_x = ttk.Scrollbar(self.schelude_frame, orient='horizontal', command=self.schelude_treeview.xview)
+        treeview_scroll_x.pack(side='bottom', fill='x')
+        self.schelude_treeview.configure(xscrollcommand=treeview_scroll_x.set)
         
         delete_schelude_button = tk.Button(self.schelude_frame, text="Delete Schelude", command=self.delete_schelude)
         delete_schelude_button.pack(side=tk.LEFT, pady=10, padx=5)
+        
+        update_status_button = tk.Button(self.schelude_frame, text="Update User Status", command=self.update_user_status)
+        update_status_button.pack(side=tk.LEFT, pady=10, padx=5)
 
         self.create_home_frame()
         self.create_client_frame()
@@ -112,20 +120,52 @@ class MyApp:
         view_scheludes_button = tk.Button(self.schelude_frame, text="View Scheludes", command=self.view_scheludes)
         view_scheludes_button.pack(side=tk.LEFT, pady=10, padx=5)
         
+        
 
         self.update_combobox_options()
+        
+    def update_user_status(self):
+        # Get the selected schelude from the Treeview
+        selected_item = self.schelude_treeview.selection()
+        if not selected_item:
+            messagebox.showerror("Error", "Please select a schelude to update user status.")
+            return
+
+        # Extract values from the selected item
+        selected_values = self.schelude_treeview.item(selected_item, 'values')
+        if not selected_values:
+            messagebox.showerror("Error", "Failed to get values from the selected schelude.")
+            return
+
+        # Unpack the tuple of values
+        user_name, _, _, status = selected_values
+
+        # Fetch the user ID and current status based on user name
+        user_data = cursor.execute('SELECT id, status FROM users WHERE name=?', (user_name,)).fetchone()
+
+        if user_data:
+            # Update the user status to 2 if it's currently 1
+            new_status = 2 if user_data[1] == 1 else 1
+            cursor.execute('UPDATE users SET status=? WHERE id=?', (new_status, user_data[0]))
+            conn.commit()
+
+            messagebox.showinfo("Success", f"User status updated successfully. New status: {new_status}")
+        else:
+            messagebox.showerror("Error", "Failed to update user status.")
 
     def view_scheludes(self):
         self.schelude_treeview.delete(*self.schelude_treeview.get_children())
         scheludes_data = cursor.execute('''
-            SELECT users.name, professional.name_pro, schelude.available_data
+            SELECT users.name, professional.name_pro, schelude.available_data, users.status
             FROM schelude
             JOIN users ON schelude.id_user = users.id
             JOIN professional ON schelude.id_pro = professional.id_pro
         ''').fetchall()
 
         for schelude in scheludes_data:
-            self.schelude_treeview.insert('', 'end', values=schelude)
+            user_name, professional_name, available_data, status = schelude
+            status_display = "(ACTIVE)" if status == 1 else "(INACTIVE)"
+            self.schelude_treeview.insert('', 'end', values=(user_name, professional_name, available_data, status_display))
             
     def delete_schelude(self):
         # Get the selected schelude from the Treeview
@@ -141,7 +181,7 @@ class MyApp:
             return
 
         # Unpack the tuple of values
-        user_name, professional_name, available_data = selected_values
+        user_name, professional_name, available_data, _ = selected_values
 
         # Fetch the schelude ID based on user name, professional name, and available_data
         schelude_id = cursor.execute('''

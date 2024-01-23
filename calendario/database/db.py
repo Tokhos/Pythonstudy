@@ -49,8 +49,8 @@ cursor.execute('''
 ''')
 
 cursor.execute('''
-    CREATE TABLE IF NOT EXISTS schelude (
-        id_schelude INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    CREATE TABLE IF NOT EXISTS schedule (
+        id_schedule INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
         id_user INTEGER NOT NULL,
         id_pro INTEGER,
         available_data TEXT,
