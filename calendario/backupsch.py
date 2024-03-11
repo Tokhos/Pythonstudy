@@ -4,38 +4,54 @@ import sqlite3
 from datetime import datetime
 
 #Schedule screen
-class ScheduleScreen(tk.Toplevel):
-    def __init__(self, master):
-        super().__init__(master)
+class ScheduleScreen(tk.Frame):
+    def __init__(self, parent, update_combobox_users, update_combobox_pro):
+        super().__init__(parent)
 
-        #self.update_combobox_users = update_combobox_users
-        #self.update_combobox_pro = update_combobox_pro
+
 
         
         self.conn = sqlite3.connect("database/usuarios.db")
         self.cursor = self.conn.cursor()
 
-        #User selection
-        self.combobox_user_name = ttk.Combobox(self, values=self.get_user_names(), )
-        #messagebox.showinfo("DEBUG! combobox user set alert")
-        self.get_user_names()
+       
+  
+
         
-        def update_combobox_users(self):
+    #def update_combobox_users(self):
+               
+            #   Professional Selection
+       # self.combobox_user_name = ttk.Combobox(self, values=self.get_user_names())
+       # self.get_user_names()
         
-            messagebox.showinfo("Information", "Success")       
-        #Professional Selection
-        self.combobox_professional_name = ttk.Combobox(self, values=self.get_professional_names())
-        self.get_professional_names()
+        
+    #def update_combobox_pro(self):
+            
+        #self.combobox_professional_name = ttk.Combobox(self, values=self.get_professional_names())
+        #self.get_professional_names()
+
 
         #Schedule Fields
         tk.Label(self, text="User Name:").grid(row=0, column=0, sticky=tk.W)
         tk.Label(self, text="Professional Name:").grid(row=1, column=0, sticky=tk.W)
         tk.Label(self, text="Date (YYYY/MM/DD HH:MM):").grid(row=2, column=0, sticky=tk.W)
 
+        self.combobox_user_name = ttk.Combobox(self, values=self.get_user_names())
         
+        self.combobox_professional_name = ttk.Combobox(self, values=self.get_professional_names()) 
+        
+        
+        self.update_combobox_users = update_combobox_users
+        self.update_combobox_pro = update_combobox_pro
         self.combobox_user_name.grid(row=0, column=1)
         self.combobox_professional_name.grid(row=1, column=1)
+        
 
+
+        #User selection
+
+        
+        
         
         self.entry_date = tk.Entry(self)
         self.entry_date.grid(row=2, column=1)
@@ -48,7 +64,7 @@ class ScheduleScreen(tk.Toplevel):
         tk.Button(self, text="Show Info", command=self.show_info_on_treeview).grid(row=3, column=2, pady=10)
         tk.Button(self, text="Update Status", command=self.update_user_status).grid(row=5, column=0, columnspan=2, pady=10)
         tk.Button(self, text="Delete Schedule", command=self.delete_schedule).grid(row=5, column=2, pady=10)
-        tk.Button(self, text="Debug", command=self.get_user_names).grid(row=5, column=3, pady=10)
+        
         
         #Treeview init
         self.schelude_treeview = ttk.Treeview(self, columns=('User', 'Professional', 'Date', 'Status'), show='headings')
@@ -64,14 +80,15 @@ class ScheduleScreen(tk.Toplevel):
             self.grid_columnconfigure(i, weight=1)
             
     #User combobox update (need something to always update)
-    def get_user_names(self):
-        return [user[0] for user in self.cursor.execute('SELECT name FROM users').fetchall()]
-        self.combobox_user_name['values'] = user_names
+    #   def get_user_names(self):
+    #       user_names = [user[0] for user in self.cursor.execute('SELECT name FROM users').fetchall()]
+    #      self.combobox_user_name['values'] = user_names
     
+    # def get_professional_names(self):
+    #     pro_names = [professional[0] for professional in self.cursor.execute('SELECT name_pro FROM Professional').fetchall()]
+    #     self.combobox_professional_name['values'] = pro_names
     #Pro combobox update (need something to always update)
-    def get_professional_names(self):
-        return [pro[0] for pro in self.cursor.execute('SELECT name_pro FROM professional').fetchall()]
-        self.combobox_professional_name['values'] = professional_names
+    
         
     #schedule insertion on database
     def add_schedule(self, id_user, id_pro, available_data):
@@ -82,6 +99,18 @@ class ScheduleScreen(tk.Toplevel):
         ''', (id_user, id_pro, available_data))
 
         self.conn.commit()
+        
+    
+    def get_user_names(self):
+        user_names = [user[0] for user in self.cursor.execute('SELECT name FROM users').fetchall()]
+        self.combobox_user_name['values'] = user_names
+       
+        
+    
+    def get_professional_names(self):
+        pro_names = [professional[0] for professional in self.cursor.execute('SELECT name_pro FROM Professional').fetchall()]
+        self.combobox_professional_name['values'] = pro_names
+        
     #schedule creation fields
     def create_schedule(self):
         user_name = self.combobox_user_name.get()
@@ -192,11 +221,3 @@ class ScheduleScreen(tk.Toplevel):
         
         self.show_info_on_treeview()
         messagebox.showinfo("Schedule Deleted", f"Schedule for user {user_name} and professional {professional_name} deleted.")
-    
-    
-        self.protocol("WM_DELETE_WINDOW", self.on_close) 
-    
-    
-    def on_close(self):
-        # Do nothing to prevent the window from closing
-        pass  

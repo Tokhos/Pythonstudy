@@ -18,7 +18,7 @@ conn = sqlite3.connect('usuarios.db')
 cursor = conn.cursor()
 
 
-
+#Cadastro Cliente
 def add_user(name, phone, mail, adress, status):
     register_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     cursor.execute('''
@@ -30,7 +30,7 @@ def add_user(name, phone, mail, adress, status):
     conn.commit()
     update_combobox_users()
 
-
+#Cadastro Cliente
 def register_user():
     name = entry_name.get()
     phone = entry_phone.get()
@@ -46,7 +46,7 @@ def register_user():
         messagebox.showinfo("Cadastro", "Usuário cadastrado com sucesso!")
     
 
-
+#Profissional
 def add_pro(name_pro, phone_pro):
     cursor.execute('''
         INSERT OR FAIL INTO professional (name_pro, phone_pro)
@@ -57,7 +57,7 @@ def add_pro(name_pro, phone_pro):
 
 
     
-
+#Profissional
 def register_pro():
     name_pro = entry_name_pro.get()
     phone_pro = entry_phone_pro.get()
@@ -69,7 +69,7 @@ def register_pro():
         add_pro(name_pro, phone_pro)
         messagebox.showinfo("Cadastro", "Profissional cadastrado com sucesso!")
 
-#
+#Profissional
 def update_user_status():
     selected_user = combo_user.get()
     new_status = combo_status.get()
@@ -102,7 +102,7 @@ def update_user_status():
     
     update_schelude_list()
 
-
+#Agendamentos
 def schelude(id_user, id_pro, days_foward=3):
     available_data = (datetime.now() + timedelta(days=days_foward)).strftime('%Y-%m-%d %H:%M:%S')
     cursor.execute('''
@@ -111,17 +111,17 @@ def schelude(id_user, id_pro, days_foward=3):
     ''', (id_user, id_pro, available_data))
     conn.commit()
     update_schelude_list()
-
+#Agendamentos
 def visualize_users():
     cursor.execute('SELECT id FROM users')
     users = cursor.fetchall()
     return users
-
+#Agendamentos
 def visualize_pro():
     cursor.execute('SELECT id_pro, name_pro FROM professional')
     profissionais = cursor.fetchall()
     return profissionais    
-
+#Agendamentos
 def visualize_schelude(id_pro):
     cursor.execute('''
         SELECT id_schelude, id_user, available_data
@@ -130,18 +130,18 @@ def visualize_schelude(id_pro):
     ''', (id_pro,))
     schelude = cursor.fetchall()
     return schelude
-
+#Agendamentos
 def schelude_time(id_schelude):
    
     pass
-
+#Agendamentos
 def cancel_schelude(id_schelude):
     cursor.execute('DELETE FROM schelude WHERE id_schelude = ?', (id_schelude,))
     conn.commit()
     update_schelude_list()
 
 
-
+#Agendamentos
 def create_schelude():
     id_user = combo_user.get()
     id_pro = combo_pro.get()
@@ -153,7 +153,7 @@ def create_schelude():
     schelude(id_user, id_pro)
     messagebox.showinfo("Agendamento", "Agendamento criado com sucesso!")
     
-    
+#Agendamentos    
 def cancel_schelude_tk():
     selected_schelude = listbox_schelude.curselection()
 
@@ -165,7 +165,7 @@ def cancel_schelude_tk():
     cancel_schelude(id_schelude)
     messagebox.showinfo("Cancelamento", "Agendamento cancelado com sucesso!")
 
-
+#Agendamentos
 def update_combobox_users():
     combo_user['values'] = visualize_users()
 
