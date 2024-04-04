@@ -30,7 +30,7 @@ class Clientlist(tk.Toplevel):
 
         tk.Button(self, text="Show Info", command=self.show_info).grid(row=3, column=2, pady=10)
         tk.Button(self, text="Edit User Info", command=self.edit_user).grid(row=3, column=4, pady=10)
-        tk.Button(self, text="Edit Schedule Info", command=self.edit_schedule).grid(row=8, column=4, pady=10)
+        #tk.Button(self, text="Edit Schedule Info", command=self.edit_schedule).grid(row=8, column=4, pady=10)
     
         self.schedule_treeview = ttk.Treeview(self)
         self.schedule_treeview.grid(column=1, columnspan=3, pady=10, sticky="nsew")
@@ -42,8 +42,8 @@ class Clientlist(tk.Toplevel):
         self.schedule_treeview.heading("Date", text="Date")
         self.schedule_treeview.heading("Status", text="Status")
         
-        self.schedule_treeview.bind("<<TreeviewSelect>>", self.on_schedule_select)
-        
+        self.schedule_treeview.bind("<Double-1>", self.on_schedule_double_click)
+
         
         
         self.search_entry = tk.Entry(self)
@@ -56,15 +56,30 @@ class Clientlist(tk.Toplevel):
 
     def edit_user(self):
         selected_item = self.client_treeview.selection()[0]
+        print("No user selected DEBUG 1846", selected_item)  
         user_data = list(self.client_treeview.item(selected_item, "values"))
         edit_screen = EditUserScreen(self, user_data)
         edit_screen.mainloop()
-        
-    def edit_schedule(self):
-        selected_item_schedule = self.schedule_treeview.selection()[0]
-        schedule_data = list(self.schedule_treeview.item(selected_item_schedule, "values"))
-        scheduleEdit_screen = EditScheduleScreen(self, schedule_data)
-        scheduleEdit_screen.mainloop()
+   
+   #####     
+    #def edit_schedule(self):
+        #selected_items_schedule = self.schedule_treeview.selection()
+            
+        #selected_item_schedule = selected_items_schedule[0]
+            
+        #schedule_values = self.schedule_treeview.item(selected_item_schedule, "values")
+
+        # Pass the schedule_data to the EditScheduleScreen
+        #schedule_data = list(schedule_values)
+
+        #scheduleEdit_screen = EditScheduleScreen(self, schedule_data)
+            
+        #scheduleEdit_screen.mainloop()
+            
+
+
+
+
             
     #SELECT From DB + INSERT  
     def show_info(self):
@@ -87,11 +102,10 @@ class Clientlist(tk.Toplevel):
     def search(self):
         search_query = self.search_entry.get().lower()
         
-        # Clear existing items
         self.client_treeview.delete(*self.client_treeview.get_children())
         self.schedule_treeview.delete(*self.schedule_treeview.get_children())
         
-        # Execute the query with the search term
+        
         client_data = self.cursor.execute(
             """
             SELECT name, phone, mail, adress
@@ -101,7 +115,7 @@ class Clientlist(tk.Toplevel):
             ('%'+search_query+'%', '%'+search_query+'%', '%'+search_query+'%', '%'+search_query+'%')
         ).fetchall()
         
-        # Insert matching items into the Treeview
+
         for user in client_data:
             self.client_treeview.insert("", "end", values=user)
 
@@ -119,35 +133,48 @@ class Clientlist(tk.Toplevel):
             status_label = "Active" if status == 1 else "Inactive"
             self.schedule_treeview.insert('', 'end', values=(user_name, professional_name, available_data, status_label))
             
+            
     def on_user_select(self, event):
-        selected_items = self.client_treeview.selection()  # Get the selected user item
-        if selected_items:  # Check if there are selected items
-            selected_item = selected_items[0]  # Get the first selected item
-            user_name = self.client_treeview.item(selected_item, "values")[0]  # Get the user name
-            self.show_user_schedule(user_name)  # Show the schedule for the selected user
+        selected_items = self.client_treeview.selection()  
+        if selected_items:  
+            selected_item = selected_items[0]  
+            user_name = self.client_treeview.item(selected_item, "values")[0]  
+            self.show_user_schedule(user_name)  
         else:
-            print("No user selected")  # Handle case where no user is selected
+            print("No user selected DEBUG 1564")  
     
-    def on_schedule_select(self, event):
-        selected_items_schedule = self.schedule_treeview.selection()  # Get the selected user item
-        if selected_items_schedule:  # Check if there are selected items
-            selected_item_schedule = selected_items_schedule[0]  # Get the first selected item
-            user_name_schedule = self.schedule_treeview.item(selected_item_schedule, "values")[0]  # Get the user name
-        else:
-            print("No user selected")  # Handle case where no user is selected
+    
+    def on_schedule_double_click(self, event):
+        selected_items_schedule = self.schedule_treeview.selection()
+        if len(selected_items_schedule) > 0:
+            selected_item_schedule = selected_items_schedule[0]
+            schedule_id = self.schedule_treeview.item(selected_item_schedule, "text")  # Get the ID from the selected item
+            id_user = self.schedule_treeview.item(selected_item_schedule, "values")[0]  # Get the id_user from the selected item
+            id_pro = self.schedule_treeview.item(selected_item_schedule, "values")[1]  # Get the id_pro from the selected item
 
-    def show_user_schedule(self, user_name):
-    # Clear existing items in the schedule treeview
+        # Open the EditScheduleScreen passing the schedule_id, id_user, and id_pro
+            edit_screen = EditScheduleScreen(self, schedule_id, id_user, id_pro)
+            edit_screen.grab_set()  # Prevent interaction with the main window
+            edit_screen.focus_set()  # Set focus on the edit screen
+            self.wait_window(edit_screen)  # Wait for the edit screen to be closed
+        else:
+            messagebox.showwarning("Warning", "Please select an item.")
+                
+
+
+
+    def show_user_schedule(self, user_name_schedule):
+    
         self.schedule_treeview.delete(*self.schedule_treeview.get_children())
-    # Execute the query to fetch schedule data for the selected user
+    
         schedule_data = self.cursor.execute('''
         SELECT users.name, professional.name_pro, schedule.available_data, users.status
         FROM schedule
         JOIN users ON schedule.id_user = users.id
         JOIN professional ON schedule.id_pro = professional.id_pro
         WHERE users.name = ?
-         ''', (user_name,)).fetchall()
-    # Insert schedule data into the schedule treeview
+         ''', (user_name_schedule,)).fetchall()
+    
         for schedule in schedule_data:
             user_name, professional_name, available_data, status = schedule
             status_label = "Active" if status == 1 else "Inactive"

@@ -44,16 +44,20 @@ class EditUserScreen(tk.Toplevel):
         self.cancel_button.grid(row=5, column=0, columnspan=2, padx=5, pady=10)
 
     def save_changes(self):
-        # Get edited values from entry fields
+        
+        
+        
         new_name = self.name_entry.get()
         new_phone = self.phone_entry.get()
         new_email = self.email_entry.get()
         new_address = self.address_entry.get()
-        # Update the user data
+       
+       
         self.user_data[0] = new_name
         self.user_data[1] = new_phone
         self.user_data[2] = new_email
         self.user_data[3] = new_address
+        
         # Update the Treeview with the new data
 
         self.cursor.execute("""
@@ -62,5 +66,6 @@ class EditUserScreen(tk.Toplevel):
             WHERE name = ?
         """, (new_name, new_phone, new_email, new_address, self.user_data[0]))
         self.conn.commit()
-        # Close the EditUserScreen
+       
+        
         self.destroy()

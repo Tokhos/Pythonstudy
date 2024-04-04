@@ -3,13 +3,13 @@ from tkinter import ttk, messagebox
 import sqlite3
 from datetime import datetime
 
+
 #Schedule screen
 class ScheduleScreen(tk.Toplevel):
     def __init__(self, master):
         super().__init__(master)
 
-        #self.update_combobox_users = update_combobox_users
-        #self.update_combobox_pro = update_combobox_pro
+
 
         
         self.conn = sqlite3.connect("database/usuarios.db")
@@ -49,6 +49,7 @@ class ScheduleScreen(tk.Toplevel):
         tk.Button(self, text="Update Status", command=self.update_user_status).grid(row=5, column=0, columnspan=2, pady=10)
         tk.Button(self, text="Delete Schedule", command=self.delete_schedule).grid(row=5, column=2, pady=10)
         tk.Button(self, text="Debug", command=self.get_user_names).grid(row=5, column=3, pady=10)
+       
         
         #Treeview init
         self.schelude_treeview = ttk.Treeview(self, columns=('User', 'Professional', 'Date', 'Status'), show='headings')
@@ -196,6 +197,7 @@ class ScheduleScreen(tk.Toplevel):
     
         self.protocol("WM_DELETE_WINDOW", self.on_close) 
     
+ 
     
     def on_close(self):
         # Do nothing to prevent the window from closing
