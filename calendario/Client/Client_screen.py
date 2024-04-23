@@ -3,13 +3,10 @@ from tkinter import ttk, messagebox
 import sqlite3
 from datetime import datetime
 
-# user registration interface
-
 
 class ClientScreen(tk.Toplevel):
     def __init__(self, master):
         super().__init__(master)
-
 
         self.conn = sqlite3.connect("database/usuarios.db")
         self.cursor = self.conn.cursor()
@@ -31,7 +28,6 @@ class ClientScreen(tk.Toplevel):
 
         tk.Button(self, text="Register User", command=self.register_user).grid(row=4, column=0, columnspan=2, pady=10)
 
-
     def add_user(self, name, phone, mail, adress, status):
         conn = sqlite3.connect("database/usuarios.db")
         cursor = conn.cursor()
@@ -47,8 +43,6 @@ class ClientScreen(tk.Toplevel):
 
         conn.commit()
 
-
-    # user registration field
     def register_user(self):
         name = self.entry_name.get()
         phone = self.entry_phone.get()
@@ -67,5 +61,3 @@ class ClientScreen(tk.Toplevel):
         self.entry_phone.delete(0, "end")
         self.entry_mail.delete(0, "end")
         self.entry_adress.delete(0, "end")
-
-

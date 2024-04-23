@@ -8,20 +8,15 @@ class ProfessionalScreen(tk.Toplevel):
     def __init__(self, master):
         super().__init__(master)
 
-        #self.update_combobox_pro = update_combobox_pro
         self.conn = sqlite3.connect("database/usuarios.db")
         self.cursor = self.conn.cursor()
-
-
-        
+ 
         self.entry_name_pro = tk.Entry(self)
         self.entry_phone_pro = tk.Entry(self)
 
-        
         tk.Label(self, text="Name:").grid(row=0, column=0, sticky=tk.W)
         tk.Label(self, text="Phone:").grid(row=1, column=0, sticky=tk.W)
 
-        
         self.entry_name_pro.grid(row=0, column=1)
         self.entry_phone_pro.grid(row=1, column=1)
         
@@ -41,8 +36,7 @@ class ProfessionalScreen(tk.Toplevel):
 
         
         tk.Button(self, text="Register Professional", command=self.register_pro).grid(row=2, column=0, columnspan=2, pady=10)
-    #pro interaction with db -> move to database
-    
+
     def add_pro(self, name_pro, phone_pro):
         
         conn = sqlite3.connect("database/usuarios.db")
@@ -54,9 +48,6 @@ class ProfessionalScreen(tk.Toplevel):
         ''', (name_pro, phone_pro))
 
         conn.commit()
-        #self.update_combobox_pro()
-    
-    #pro registration field
     
     def register_pro(self):
         name_pro = self.entry_name_pro.get()

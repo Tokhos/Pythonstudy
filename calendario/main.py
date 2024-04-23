@@ -26,30 +26,21 @@ class MyApp(tk.Tk):
         self.title("Schedule Management")
         self.iconbitmap("icon.ico")
 
-        
         self.notebook = ttk.Notebook(self)
         self.notebook.pack(expand=True, fill=tk.BOTH)
 
-        
         self.conn = sqlite3.connect("database/usuarios.db")
         self.cursor = self.conn.cursor()
-
-        
         self.home_frame = tk.Frame(self.notebook)
 
         self.notebook.add(self.home_frame, text="Home Screen")
-
-
-        
         self.notebook.enable_traversal()
         
         style = ttk.Style()
         style.configure('Home.TButton', font=('Helvetica', 14), padding=(10, 5))
 
-        
         tk.Label(self, text="Schedule Management Program", font=('Helvetica', 16)).pack(pady=20)
 
-        
         tk.Button(self.home_frame, text="Client", command=self.openscreen1, height=10, width=30).pack(
             side=tk.LEFT, padx=10, pady=10)
         tk.Button(self.home_frame, text="Professional", command=self.openscreen2, height=10, width=30).pack(
@@ -57,13 +48,9 @@ class MyApp(tk.Tk):
         tk.Button(self.home_frame, text="Schedule", command=self.openscreen3, height=10, width=30).pack(
             side=tk.LEFT, padx=10, pady=10)
 
-
-        
         self.notebook.bind("<<NotebookTabChanged>>", self.tab_changed)
 
-        
         self.tab_changed(None)
-    
     
     def openscreen3(self):
         screen3 = ScheduleScreen(self)
@@ -85,7 +72,6 @@ class MyApp(tk.Tk):
     def tab_changed(self, event):
         
         current_tab = self.notebook.index(self.notebook.select())
-
 
 if __name__ == "__main__":
     app = MyApp()

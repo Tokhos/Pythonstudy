@@ -16,15 +16,6 @@ cursor.execute('''
      )
  ''')
 
-
-#cursor.execute('''
-#     CREATE TABLE IF NOT EXISTS status(
-#         id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-#         user_status INTEGER
-#         FOREIGN KEY (id) REFERENCES user_base (id_user)
-#     )
-# ''')
-
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS users (
         id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL UNIQUE,
